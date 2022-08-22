@@ -1,0 +1,50 @@
+body {
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 0 0 2px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.accent-color {
+    display: block;
+    color: #bc6c25;
+}
+
+p {
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 0 0 2px black;
+}
+
+button {
+    background-color: #457b9d;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Lobster Two', cursive;
+}
+
+button:hover {
+    background-color: white;
+    color: #457b9d;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #457b9d;
+    color: white;
+}
